@@ -1,0 +1,58 @@
+/* General body styling */
+body {
+    font-family: 'Arial', sans-serif;
+    background: linear-gradient(135deg, #ece9e6, #ffffff);
+    margin: 0;
+    padding: 0;
+    color: #343a40;
+}
+
+/* Centered container styling */
+.container {
+    max-width: 600px;
+    margin: 100px auto;
+    text-align: center;
+    padding: 30px;
+    background: rgb(255, 255, 255);
+    border-radius: 10px;
+    box-shadow: 0 4px 20px rgba(0, 0, 0, 0.1);
+}
+
+/* Welcome header styling */
+.container h1 {
+    font-size: 2.5rem;
+    color: #007bff;
+    margin-bottom: 20px;
+    font-weight: bold;
+}
+
+/* Logout button styling */
+.btn-danger {
+    background-color: #dc3545;
+    border: none;
+    padding: 10px 20px;
+    font-size: 1rem;
+    border-radius: 5px;
+    color: white;
+    transition: background-color 0.3s ease;
+}
+
+.btn-danger:hover {
+    background-color: #b71d25;
+    text-decoration: none;
+    color: white;
+}
+
+/* Footer alignment */
+footer {
+    position: fixed;
+    bottom: 10px;
+    width: 100%;
+    text-align: center;
+    color: #6c757d;
+    font-size: 0.9rem;
+}
+
+.navbar{
+    align-items: flex-end;
+}
